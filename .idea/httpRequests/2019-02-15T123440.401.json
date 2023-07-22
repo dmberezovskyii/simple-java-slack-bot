@@ -1,0 +1,9 @@
+{
+  "title": "Unauthorized",
+  "code": 40100,
+  "errors": [
+    {
+      "message": "No token provided. Did you include `Bearer` prefix?"
+    }
+  ]
+}

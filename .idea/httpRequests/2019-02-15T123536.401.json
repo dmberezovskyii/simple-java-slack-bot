@@ -1,0 +1,9 @@
+{
+  "title": "Unauthorized",
+  "code": 40101,
+  "errors": [
+    {
+      "message": "Invalid token"
+    }
+  ]
+}

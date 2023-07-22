@@ -1,0 +1,9 @@
+{
+  "title": "Internal Server Error",
+  "code": 50001,
+  "errors": [
+    {
+      "message": "Occurred an error when working with DB"
+    }
+  ]
+}

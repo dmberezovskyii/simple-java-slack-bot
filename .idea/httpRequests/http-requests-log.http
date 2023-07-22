@@ -1,0 +1,951 @@
+POST https://test-arm.novaposhta.io/ml/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.-sdnYOTuFSrKD-tw1VbT73gMNj4V2Vj-FIgBfpCMEp0
+
+{
+  "ref": "c5203bc3-958b-4a93-9b31-29b5bb85df4c",
+  "number": "19805-1786750",
+  "creation_date": "2019-02-15 03:40:28",
+  "weight": 23.12323,
+  "volume": 12.12,
+  "courier_name": "Клименко",
+  "courier_ref": "35003532-92f1-11e2-a57a-d4ae527baec3",
+  "car": {
+    "ref": "0439db13-a8cc-11e1-ada0-0026b97ed48a",
+    "description": "Citroen",
+    "number": "AT 6523 BH"
+  },
+  "district_ref": "59d755ff-56fb-11e5-8d8d-005056887b8d",
+  "start_point_location": [
+    24.50311089,
+    48.45276341
+  ],
+  "start_point_name": "Courier start point",
+  "ew": [
+    {
+      "ref": "88e740de-6fd7-4844-827b-2f39f6e07ee1",
+      "number": "59601402169542",
+      "sender": {
+        "city": {
+          "ref": "0d834484-4b3a-11e4-ab6d-005056801329",
+          "description": "м.Київ"
+        },
+        "counterparty": {
+          "ref": "6a2915a2-966b-45c4-b6f5-86f0e9b981e0",
+          "description": "АТ Звіринець",
+          "counterparty_type": "privatePerson"
+        },
+        "contact_person": {
+          "ref": "422e8fc2-64ef-4c5a-ad82-ff096c64bb4b",
+          "description": "Поттер Віталя Стрендж",
+          "phone": "+380997327800"
+        },
+        "address": {
+          "ref": "0236bc81-df34-41ed-afcf-7c95a8493b68",
+          "description": "м.Київ,вул.Павла Зібровавул.Дарницька,11"
+        }
+      },
+      "recipient": {
+        "city": {
+          "ref": "0426effb-4d5a-11e4-ab6d-005056801329",
+          "description": "м.Івано-Франківськ"
+        },
+        "counterparty": {
+          "ref": "7a2995a2-966b-45c4-b6f5-86f0e9b061e0",
+          "description": "ФОП Ковбої",
+          "counterparty_type": "PrivatePerson"
+        },
+        "contact_person": {
+          "ref": "012e8fc2-64ef-4c5a-ad82-ff076c64bb4b",
+          "description": "Поттер Віталя Стрендж",
+          "phone": "+380995692157"
+        },
+        "address": {
+          "ref": "0136bc81-df34-41ed-afcf-7c95a8493b68",
+          "description": "м.Івано-Франківськ, вул.Павла Зібровавул.Дарницька, 11"
+        }
+      },
+      "price": 30,
+      "payer_type": "thirdPerson",
+      "cost": "Cost object",
+      "redelivery_sum": 57,
+      "redelivery_sum_commision": 32,
+      "redelivery_commision_payer": "thirdPerson",
+      "text_note": "Text note",
+      "cargo_description": "Опис товару",
+      "cargo_type": "Cargo",
+      "created_date": "2019-02-15 03:39:49",
+      "weight_type": "physical",
+      "weight_physical_value": 27,
+      "weight_volume_value": 10,
+      "places_amount": 9,
+      "location": [
+        48.933293,
+        24.726389
+      ],
+      "location_precision": "city",
+      "district_ref": "59d755ff-56fb-11e5-8d8d-005056887b8d",
+      "has_time_interval": true,
+      "time_interval_from": "2019-02-15 15:00:00",
+      "time_interval_to": "2019-02-15 18:00:00"
+    },
+    {
+      "ref": "4df5ce18-667e-4e94-80b2-48d6d2b86606",
+      "number": "59745946265586",
+      "sender": {
+        "city": {
+          "ref": "0d834484-4b3a-11e4-ab6d-005056801329",
+          "description": "с.Тувопідгоров"
+        },
+        "counterparty": {
+          "ref": "6a2915a2-966b-45c4-b6f5-86f0e9b981e0",
+          "description": "ПП Клубнічка на Рибальського",
+          "counterparty_type": "privatePerson"
+        },
+        "contact_person": {
+          "ref": "422e8fc2-64ef-4c5a-ad82-ff096c64bb4b",
+          "description": "Чорна Дейнеріс Штефков",
+          "phone": "+380998631698"
+        },
+        "address": {
+          "ref": "0236bc81-df34-41ed-afcf-7c95a8493b68",
+          "description": "с.Тувопідгоров,вул.Маяковського,53"
+        }
+      },
+      "recipient": {
+        "city": {
+          "ref": "0426effb-4d5a-11e4-ab6d-005056801329",
+          "description": "м.Івано-Франківськ"
+        },
+        "counterparty": {
+          "ref": "7a3375a2-966b-45c4-b6f5-86f0e9b791e0",
+          "description": "ФОП Ковбої",
+          "counterparty_type": "PrivatePerson"
+        },
+        "contact_person": {
+          "ref": "912e8fc2-64ef-4c5a-ad82-ff086c64bb4b",
+          "description": "Чорна Дейнеріс Штефков",
+          "phone": "+380995692157"
+        },
+        "address": {
+          "ref": "0136bc81-df34-41ed-afcf-7c95a8493b68",
+          "description": "м.Івано-Франківськ, вул.Маяковського, 53"
+        }
+      },
+      "price": 88,
+      "payer_type": "thirdPerson",
+      "cost": "Cost object",
+      "redelivery_sum": 963,
+      "redelivery_sum_commision": 10,
+      "redelivery_commision_payer": "thirdPerson",
+      "text_note": "Text note",
+      "cargo_description": "Тут був я і я",
+      "cargo_type": "Cargo",
+      "created_date": "2019-02-15 03:39:49",
+      "weight_type": "physical",
+      "weight_physical_value": 91,
+      "weight_volume_value": 2,
+      "places_amount": 3,
+      "location": [
+        48.933219,
+        24.728456
+      ],
+      "location_precision": "city",
+      "district_ref": "59d755ff-56fb-11e5-8d8d-005056887b8d",
+      "has_time_interval": false,
+      "time_interval_from": "2019-02-15 15:00:00",
+      "time_interval_to": "2019-02-15 18:00:00"
+    },
+    {
+      "ref": "57d604de-d0d4-4962-a00b-62eb2fb8f1d8",
+      "number": "59317199997370",
+      "sender": {
+        "city": {
+          "ref": "0d834484-4b3a-11e4-ab6d-005056801329",
+          "description": "м.НеДалеко"
+        },
+        "counterparty": {
+          "ref": "6a2915a2-966b-45c4-b6f5-86f0e9b981e0",
+          "description": "АТ Чудова Сімка",
+          "counterparty_type": "privatePerson"
+        },
+        "contact_person": {
+          "ref": "422e8fc2-64ef-4c5a-ad82-ff096c64bb4b",
+          "description": "Притухлий Віталя Штефков",
+          "phone": "+380993605892"
+        },
+        "address": {
+          "ref": "0236bc81-df34-41ed-afcf-7c95a8493b68",
+          "description": "м.НеДалеко,вул.Надрічна,03"
+        }
+      },
+      "recipient": {
+        "city": {
+          "ref": "0426effb-4d5a-11e4-ab6d-005056801329",
+          "description": "м.Івано-Франківськ"
+        },
+        "counterparty": {
+          "ref": "7a6055a2-966b-45c4-b6f5-86f0e9b461e0",
+          "description": "Хамам",
+          "counterparty_type": "PrivatePerson"
+        },
+        "contact_person": {
+          "ref": "812e8fc2-64ef-4c5a-ad82-ff006c64bb4b",
+          "description": "Притухлий Віталя Штефков",
+          "phone": "+380995692157"
+        },
+        "address": {
+          "ref": "0136bc81-df34-41ed-afcf-7c95a8493b68",
+          "description": "м.Івано-Франківськ, вул.Надрічна, 03"
+        }
+      },
+      "price": 82,
+      "payer_type": "thirdPerson",
+      "cost": "Cost object",
+      "redelivery_sum": 953,
+      "redelivery_sum_commision": 37,
+      "redelivery_commision_payer": "thirdPerson",
+      "text_note": "Text note",
+      "cargo_description": "Тут був я і я",
+      "cargo_type": "Cargo",
+      "created_date": "2019-02-15 03:39:49",
+      "weight_type": "physical",
+      "weight_physical_value": 63,
+      "weight_volume_value": 8,
+      "places_amount": 3,
+      "location": [
+        48.936777,
+        24.72508
+      ],
+      "location_precision": "city",
+      "district_ref": "59d755ff-56fb-11e5-8d8d-005056887b8d",
+      "has_time_interval": true,
+      "time_interval_from": "2019-02-15 09:00:00",
+      "time_interval_to": "2019-02-15 12:00:00"
+    }
+  ]
+}
+
+<> 2019-02-15T123626.500.json
+
+###
+
+POST https://test-arm.novaposhta.io/ml/
+Content-Type: application/json
+Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.-sdnYOTuFSrKD-tw1VbT73gMNj4V2Vj-FIgBfpCMEp0"
+
+{
+  "ref": "c5203bc3-958b-4a93-9b31-29b5bb85df4c",
+  "number": "19805-1786750",
+  "creation_date": "2019-02-15 03:40:28",
+  "weight": 23.12323,
+  "volume": 12.12,
+  "courier_name": "Клименко",
+  "courier_ref": "35003532-92f1-11e2-a57a-d4ae527baec3",
+  "car": {
+    "ref": "0439db13-a8cc-11e1-ada0-0026b97ed48a",
+    "description": "Citroen",
+    "number": "AT 6523 BH"
+  },
+  "district_ref": "59d755ff-56fb-11e5-8d8d-005056887b8d",
+  "start_point_location": [
+    24.50311089,
+    48.45276341
+  ],
+  "start_point_name": "Courier start point",
+  "ew": [
+    {
+      "ref": "88e740de-6fd7-4844-827b-2f39f6e07ee1",
+      "number": "59601402169542",
+      "sender": {
+        "city": {
+          "ref": "0d834484-4b3a-11e4-ab6d-005056801329",
+          "description": "м.Київ"
+        },
+        "counterparty": {
+          "ref": "6a2915a2-966b-45c4-b6f5-86f0e9b981e0",
+          "description": "АТ Звіринець",
+          "counterparty_type": "privatePerson"
+        },
+        "contact_person": {
+          "ref": "422e8fc2-64ef-4c5a-ad82-ff096c64bb4b",
+          "description": "Поттер Віталя Стрендж",
+          "phone": "+380997327800"
+        },
+        "address": {
+          "ref": "0236bc81-df34-41ed-afcf-7c95a8493b68",
+          "description": "м.Київ,вул.Павла Зібровавул.Дарницька,11"
+        }
+      },
+      "recipient": {
+        "city": {
+          "ref": "0426effb-4d5a-11e4-ab6d-005056801329",
+          "description": "м.Івано-Франківськ"
+        },
+        "counterparty": {
+          "ref": "7a2995a2-966b-45c4-b6f5-86f0e9b061e0",
+          "description": "ФОП Ковбої",
+          "counterparty_type": "PrivatePerson"
+        },
+        "contact_person": {
+          "ref": "012e8fc2-64ef-4c5a-ad82-ff076c64bb4b",
+          "description": "Поттер Віталя Стрендж",
+          "phone": "+380995692157"
+        },
+        "address": {
+          "ref": "0136bc81-df34-41ed-afcf-7c95a8493b68",
+          "description": "м.Івано-Франківськ, вул.Павла Зібровавул.Дарницька, 11"
+        }
+      },
+      "price": 30,
+      "payer_type": "thirdPerson",
+      "cost": "Cost object",
+      "redelivery_sum": 57,
+      "redelivery_sum_commision": 32,
+      "redelivery_commision_payer": "thirdPerson",
+      "text_note": "Text note",
+      "cargo_description": "Опис товару",
+      "cargo_type": "Cargo",
+      "created_date": "2019-02-15 03:39:49",
+      "weight_type": "physical",
+      "weight_physical_value": 27,
+      "weight_volume_value": 10,
+      "places_amount": 9,
+      "location": [
+        48.933293,
+        24.726389
+      ],
+      "location_precision": "city",
+      "district_ref": "59d755ff-56fb-11e5-8d8d-005056887b8d",
+      "has_time_interval": true,
+      "time_interval_from": "2019-02-15 15:00:00",
+      "time_interval_to": "2019-02-15 18:00:00"
+    },
+    {
+      "ref": "4df5ce18-667e-4e94-80b2-48d6d2b86606",
+      "number": "59745946265586",
+      "sender": {
+        "city": {
+          "ref": "0d834484-4b3a-11e4-ab6d-005056801329",
+          "description": "с.Тувопідгоров"
+        },
+        "counterparty": {
+          "ref": "6a2915a2-966b-45c4-b6f5-86f0e9b981e0",
+          "description": "ПП Клубнічка на Рибальського",
+          "counterparty_type": "privatePerson"
+        },
+        "contact_person": {
+          "ref": "422e8fc2-64ef-4c5a-ad82-ff096c64bb4b",
+          "description": "Чорна Дейнеріс Штефков",
+          "phone": "+380998631698"
+        },
+        "address": {
+          "ref": "0236bc81-df34-41ed-afcf-7c95a8493b68",
+          "description": "с.Тувопідгоров,вул.Маяковського,53"
+        }
+      },
+      "recipient": {
+        "city": {
+          "ref": "0426effb-4d5a-11e4-ab6d-005056801329",
+          "description": "м.Івано-Франківськ"
+        },
+        "counterparty": {
+          "ref": "7a3375a2-966b-45c4-b6f5-86f0e9b791e0",
+          "description": "ФОП Ковбої",
+          "counterparty_type": "PrivatePerson"
+        },
+        "contact_person": {
+          "ref": "912e8fc2-64ef-4c5a-ad82-ff086c64bb4b",
+          "description": "Чорна Дейнеріс Штефков",
+          "phone": "+380995692157"
+        },
+        "address": {
+          "ref": "0136bc81-df34-41ed-afcf-7c95a8493b68",
+          "description": "м.Івано-Франківськ, вул.Маяковського, 53"
+        }
+      },
+      "price": 88,
+      "payer_type": "thirdPerson",
+      "cost": "Cost object",
+      "redelivery_sum": 963,
+      "redelivery_sum_commision": 10,
+      "redelivery_commision_payer": "thirdPerson",
+      "text_note": "Text note",
+      "cargo_description": "Тут був я і я",
+      "cargo_type": "Cargo",
+      "created_date": "2019-02-15 03:39:49",
+      "weight_type": "physical",
+      "weight_physical_value": 91,
+      "weight_volume_value": 2,
+      "places_amount": 3,
+      "location": [
+        48.933219,
+        24.728456
+      ],
+      "location_precision": "city",
+      "district_ref": "59d755ff-56fb-11e5-8d8d-005056887b8d",
+      "has_time_interval": false,
+      "time_interval_from": "2019-02-15 15:00:00",
+      "time_interval_to": "2019-02-15 18:00:00"
+    },
+    {
+      "ref": "57d604de-d0d4-4962-a00b-62eb2fb8f1d8",
+      "number": "59317199997370",
+      "sender": {
+        "city": {
+          "ref": "0d834484-4b3a-11e4-ab6d-005056801329",
+          "description": "м.НеДалеко"
+        },
+        "counterparty": {
+          "ref": "6a2915a2-966b-45c4-b6f5-86f0e9b981e0",
+          "description": "АТ Чудова Сімка",
+          "counterparty_type": "privatePerson"
+        },
+        "contact_person": {
+          "ref": "422e8fc2-64ef-4c5a-ad82-ff096c64bb4b",
+          "description": "Притухлий Віталя Штефков",
+          "phone": "+380993605892"
+        },
+        "address": {
+          "ref": "0236bc81-df34-41ed-afcf-7c95a8493b68",
+          "description": "м.НеДалеко,вул.Надрічна,03"
+        }
+      },
+      "recipient": {
+        "city": {
+          "ref": "0426effb-4d5a-11e4-ab6d-005056801329",
+          "description": "м.Івано-Франківськ"
+        },
+        "counterparty": {
+          "ref": "7a6055a2-966b-45c4-b6f5-86f0e9b461e0",
+          "description": "Хамам",
+          "counterparty_type": "PrivatePerson"
+        },
+        "contact_person": {
+          "ref": "812e8fc2-64ef-4c5a-ad82-ff006c64bb4b",
+          "description": "Притухлий Віталя Штефков",
+          "phone": "+380995692157"
+        },
+        "address": {
+          "ref": "0136bc81-df34-41ed-afcf-7c95a8493b68",
+          "description": "м.Івано-Франківськ, вул.Надрічна, 03"
+        }
+      },
+      "price": 82,
+      "payer_type": "thirdPerson",
+      "cost": "Cost object",
+      "redelivery_sum": 953,
+      "redelivery_sum_commision": 37,
+      "redelivery_commision_payer": "thirdPerson",
+      "text_note": "Text note",
+      "cargo_description": "Тут був я і я",
+      "cargo_type": "Cargo",
+      "created_date": "2019-02-15 03:39:49",
+      "weight_type": "physical",
+      "weight_physical_value": 63,
+      "weight_volume_value": 8,
+      "places_amount": 3,
+      "location": [
+        48.936777,
+        24.72508
+      ],
+      "location_precision": "city",
+      "district_ref": "59d755ff-56fb-11e5-8d8d-005056887b8d",
+      "has_time_interval": true,
+      "time_interval_from": "2019-02-15 09:00:00",
+      "time_interval_to": "2019-02-15 12:00:00"
+    }
+  ]
+}
+
+<> 2019-02-15T123536.401.json
+
+###
+
+POST https://test-arm.novaposhta.io/ml/
+Content-Type: application/json
+
+{
+  "ref": "c5203bc3-958b-4a93-9b31-29b5bb85df4c",
+  "number": "19805-1786750",
+  "creation_date": "2019-02-15 03:40:28",
+  "weight": 23.12323,
+  "volume": 12.12,
+  "courier_name": "Клименко",
+  "courier_ref": "35003532-92f1-11e2-a57a-d4ae527baec3",
+  "car": {
+    "ref": "0439db13-a8cc-11e1-ada0-0026b97ed48a",
+    "description": "Citroen",
+    "number": "AT 6523 BH"
+  },
+  "district_ref": "59d755ff-56fb-11e5-8d8d-005056887b8d",
+  "start_point_location": [
+    24.50311089,
+    48.45276341
+  ],
+  "start_point_name": "Courier start point",
+  "ew": [
+    {
+      "ref": "88e740de-6fd7-4844-827b-2f39f6e07ee1",
+      "number": "59601402169542",
+      "sender": {
+        "city": {
+          "ref": "0d834484-4b3a-11e4-ab6d-005056801329",
+          "description": "м.Київ"
+        },
+        "counterparty": {
+          "ref": "6a2915a2-966b-45c4-b6f5-86f0e9b981e0",
+          "description": "АТ Звіринець",
+          "counterparty_type": "privatePerson"
+        },
+        "contact_person": {
+          "ref": "422e8fc2-64ef-4c5a-ad82-ff096c64bb4b",
+          "description": "Поттер Віталя Стрендж",
+          "phone": "+380997327800"
+        },
+        "address": {
+          "ref": "0236bc81-df34-41ed-afcf-7c95a8493b68",
+          "description": "м.Київ,вул.Павла Зібровавул.Дарницька,11"
+        }
+      },
+      "recipient": {
+        "city": {
+          "ref": "0426effb-4d5a-11e4-ab6d-005056801329",
+          "description": "м.Івано-Франківськ"
+        },
+        "counterparty": {
+          "ref": "7a2995a2-966b-45c4-b6f5-86f0e9b061e0",
+          "description": "ФОП Ковбої",
+          "counterparty_type": "PrivatePerson"
+        },
+        "contact_person": {
+          "ref": "012e8fc2-64ef-4c5a-ad82-ff076c64bb4b",
+          "description": "Поттер Віталя Стрендж",
+          "phone": "+380995692157"
+        },
+        "address": {
+          "ref": "0136bc81-df34-41ed-afcf-7c95a8493b68",
+          "description": "м.Івано-Франківськ, вул.Павла Зібровавул.Дарницька, 11"
+        }
+      },
+      "price": 30,
+      "payer_type": "thirdPerson",
+      "cost": "Cost object",
+      "redelivery_sum": 57,
+      "redelivery_sum_commision": 32,
+      "redelivery_commision_payer": "thirdPerson",
+      "text_note": "Text note",
+      "cargo_description": "Опис товару",
+      "cargo_type": "Cargo",
+      "created_date": "2019-02-15 03:39:49",
+      "weight_type": "physical",
+      "weight_physical_value": 27,
+      "weight_volume_value": 10,
+      "places_amount": 9,
+      "location": [
+        48.933293,
+        24.726389
+      ],
+      "location_precision": "city",
+      "district_ref": "59d755ff-56fb-11e5-8d8d-005056887b8d",
+      "has_time_interval": true,
+      "time_interval_from": "2019-02-15 15:00:00",
+      "time_interval_to": "2019-02-15 18:00:00"
+    },
+    {
+      "ref": "4df5ce18-667e-4e94-80b2-48d6d2b86606",
+      "number": "59745946265586",
+      "sender": {
+        "city": {
+          "ref": "0d834484-4b3a-11e4-ab6d-005056801329",
+          "description": "с.Тувопідгоров"
+        },
+        "counterparty": {
+          "ref": "6a2915a2-966b-45c4-b6f5-86f0e9b981e0",
+          "description": "ПП Клубнічка на Рибальського",
+          "counterparty_type": "privatePerson"
+        },
+        "contact_person": {
+          "ref": "422e8fc2-64ef-4c5a-ad82-ff096c64bb4b",
+          "description": "Чорна Дейнеріс Штефков",
+          "phone": "+380998631698"
+        },
+        "address": {
+          "ref": "0236bc81-df34-41ed-afcf-7c95a8493b68",
+          "description": "с.Тувопідгоров,вул.Маяковського,53"
+        }
+      },
+      "recipient": {
+        "city": {
+          "ref": "0426effb-4d5a-11e4-ab6d-005056801329",
+          "description": "м.Івано-Франківськ"
+        },
+        "counterparty": {
+          "ref": "7a3375a2-966b-45c4-b6f5-86f0e9b791e0",
+          "description": "ФОП Ковбої",
+          "counterparty_type": "PrivatePerson"
+        },
+        "contact_person": {
+          "ref": "912e8fc2-64ef-4c5a-ad82-ff086c64bb4b",
+          "description": "Чорна Дейнеріс Штефков",
+          "phone": "+380995692157"
+        },
+        "address": {
+          "ref": "0136bc81-df34-41ed-afcf-7c95a8493b68",
+          "description": "м.Івано-Франківськ, вул.Маяковського, 53"
+        }
+      },
+      "price": 88,
+      "payer_type": "thirdPerson",
+      "cost": "Cost object",
+      "redelivery_sum": 963,
+      "redelivery_sum_commision": 10,
+      "redelivery_commision_payer": "thirdPerson",
+      "text_note": "Text note",
+      "cargo_description": "Тут був я і я",
+      "cargo_type": "Cargo",
+      "created_date": "2019-02-15 03:39:49",
+      "weight_type": "physical",
+      "weight_physical_value": 91,
+      "weight_volume_value": 2,
+      "places_amount": 3,
+      "location": [
+        48.933219,
+        24.728456
+      ],
+      "location_precision": "city",
+      "district_ref": "59d755ff-56fb-11e5-8d8d-005056887b8d",
+      "has_time_interval": false,
+      "time_interval_from": "2019-02-15 15:00:00",
+      "time_interval_to": "2019-02-15 18:00:00"
+    },
+    {
+      "ref": "57d604de-d0d4-4962-a00b-62eb2fb8f1d8",
+      "number": "59317199997370",
+      "sender": {
+        "city": {
+          "ref": "0d834484-4b3a-11e4-ab6d-005056801329",
+          "description": "м.НеДалеко"
+        },
+        "counterparty": {
+          "ref": "6a2915a2-966b-45c4-b6f5-86f0e9b981e0",
+          "description": "АТ Чудова Сімка",
+          "counterparty_type": "privatePerson"
+        },
+        "contact_person": {
+          "ref": "422e8fc2-64ef-4c5a-ad82-ff096c64bb4b",
+          "description": "Притухлий Віталя Штефков",
+          "phone": "+380993605892"
+        },
+        "address": {
+          "ref": "0236bc81-df34-41ed-afcf-7c95a8493b68",
+          "description": "м.НеДалеко,вул.Надрічна,03"
+        }
+      },
+      "recipient": {
+        "city": {
+          "ref": "0426effb-4d5a-11e4-ab6d-005056801329",
+          "description": "м.Івано-Франківськ"
+        },
+        "counterparty": {
+          "ref": "7a6055a2-966b-45c4-b6f5-86f0e9b461e0",
+          "description": "Хамам",
+          "counterparty_type": "PrivatePerson"
+        },
+        "contact_person": {
+          "ref": "812e8fc2-64ef-4c5a-ad82-ff006c64bb4b",
+          "description": "Притухлий Віталя Штефков",
+          "phone": "+380995692157"
+        },
+        "address": {
+          "ref": "0136bc81-df34-41ed-afcf-7c95a8493b68",
+          "description": "м.Івано-Франківськ, вул.Надрічна, 03"
+        }
+      },
+      "price": 82,
+      "payer_type": "thirdPerson",
+      "cost": "Cost object",
+      "redelivery_sum": 953,
+      "redelivery_sum_commision": 37,
+      "redelivery_commision_payer": "thirdPerson",
+      "text_note": "Text note",
+      "cargo_description": "Тут був я і я",
+      "cargo_type": "Cargo",
+      "created_date": "2019-02-15 03:39:49",
+      "weight_type": "physical",
+      "weight_physical_value": 63,
+      "weight_volume_value": 8,
+      "places_amount": 3,
+      "location": [
+        48.936777,
+        24.72508
+      ],
+      "location_precision": "city",
+      "district_ref": "59d755ff-56fb-11e5-8d8d-005056887b8d",
+      "has_time_interval": true,
+      "time_interval_from": "2019-02-15 09:00:00",
+      "time_interval_to": "2019-02-15 12:00:00"
+    }
+  ]
+}
+
+<> 2019-02-15T123506.401.json
+
+###
+
+POST https://test-arm.novaposhta.io/ml/
+Content-Type: application/json
+
+{{
+    "ref": "c5203bc3-958b-4a93-9b31-29b5bb85df4c",
+    "number": "19805-1786750",
+    "creation_date": "2019-02-15 03:40:28",
+    "weight": 23.12323,
+    "volume": 12.12,
+    "courier_name": "Клименко",
+    "courier_ref": "35003532-92f1-11e2-a57a-d4ae527baec3",
+    "car": {
+        "ref": "0439db13-a8cc-11e1-ada0-0026b97ed48a",
+        "description": "Citroen",
+        "number": "AT 6523 BH"
+    },
+    "district_ref": "59d755ff-56fb-11e5-8d8d-005056887b8d",
+    "start_point_location": [
+        24.50311089,
+        48.45276341
+    ],
+    "start_point_name": "Courier start point",
+    "ew": [
+        {
+            "ref": "88e740de-6fd7-4844-827b-2f39f6e07ee1",
+            "number": "59601402169542",
+            "sender": {
+                "city": {
+                    "ref": "0d834484-4b3a-11e4-ab6d-005056801329",
+                    "description": "м.Київ"
+                },
+                "counterparty": {
+                    "ref": "6a2915a2-966b-45c4-b6f5-86f0e9b981e0",
+                    "description": "АТ Звіринець",
+                    "counterparty_type": "privatePerson"
+                },
+                "contact_person": {
+                    "ref": "422e8fc2-64ef-4c5a-ad82-ff096c64bb4b",
+                    "description": "Поттер Віталя Стрендж",
+                    "phone": "+380997327800"
+                },
+                "address": {
+                    "ref": "0236bc81-df34-41ed-afcf-7c95a8493b68",
+                    "description": "м.Київ,вул.Павла Зібровавул.Дарницька,11"
+                }
+            },
+            "recipient": {
+                "city": {
+                    "ref": "0426effb-4d5a-11e4-ab6d-005056801329",
+                    "description": "м.Івано-Франківськ"
+                },
+                "counterparty": {
+                    "ref": "7a2995a2-966b-45c4-b6f5-86f0e9b061e0",
+                    "description": "ФОП Ковбої",
+                    "counterparty_type": "PrivatePerson"
+                },
+                "contact_person": {
+                    "ref": "012e8fc2-64ef-4c5a-ad82-ff076c64bb4b",
+                    "description": "Поттер Віталя Стрендж",
+                    "phone": "+380995692157"
+                },
+                "address": {
+                    "ref": "0136bc81-df34-41ed-afcf-7c95a8493b68",
+                    "description": "м.Івано-Франківськ, вул.Павла Зібровавул.Дарницька, 11"
+                }
+            },
+            "price": 30,
+            "payer_type": "thirdPerson",
+            "cost": "Cost object",
+            "redelivery_sum": 57,
+            "redelivery_sum_commision": 32,
+            "redelivery_commision_payer": "thirdPerson",
+            "text_note": "Text note",
+            "cargo_description": "Опис товару",
+            "cargo_type": "Cargo",
+            "created_date": "2019-02-15 03:39:49",
+            "weight_type": "physical",
+            "weight_physical_value": 27,
+            "weight_volume_value": 10,
+            "places_amount": 9,
+            "location": [
+                48.933293,
+                24.726389
+            ],
+            "location_precision": "city",
+            "district_ref": "59d755ff-56fb-11e5-8d8d-005056887b8d",
+            "has_time_interval": true,
+            "time_interval_from": "2019-02-15 15:00:00",
+            "time_interval_to": "2019-02-15 18:00:00"
+        },
+        {
+            "ref": "4df5ce18-667e-4e94-80b2-48d6d2b86606",
+            "number": "59745946265586",
+            "sender": {
+                "city": {
+                    "ref": "0d834484-4b3a-11e4-ab6d-005056801329",
+                    "description": "с.Тувопідгоров"
+                },
+                "counterparty": {
+                    "ref": "6a2915a2-966b-45c4-b6f5-86f0e9b981e0",
+                    "description": "ПП Клубнічка на Рибальського",
+                    "counterparty_type": "privatePerson"
+                },
+                "contact_person": {
+                    "ref": "422e8fc2-64ef-4c5a-ad82-ff096c64bb4b",
+                    "description": "Чорна Дейнеріс Штефков",
+                    "phone": "+380998631698"
+                },
+                "address": {
+                    "ref": "0236bc81-df34-41ed-afcf-7c95a8493b68",
+                    "description": "с.Тувопідгоров,вул.Маяковського,53"
+                }
+            },
+            "recipient": {
+                "city": {
+                    "ref": "0426effb-4d5a-11e4-ab6d-005056801329",
+                    "description": "м.Івано-Франківськ"
+                },
+                "counterparty": {
+                    "ref": "7a3375a2-966b-45c4-b6f5-86f0e9b791e0",
+                    "description": "ФОП Ковбої",
+                    "counterparty_type": "PrivatePerson"
+                },
+                "contact_person": {
+                    "ref": "912e8fc2-64ef-4c5a-ad82-ff086c64bb4b",
+                    "description": "Чорна Дейнеріс Штефков",
+                    "phone": "+380995692157"
+                },
+                "address": {
+                    "ref": "0136bc81-df34-41ed-afcf-7c95a8493b68",
+                    "description": "м.Івано-Франківськ, вул.Маяковського, 53"
+                }
+            },
+            "price": 88,
+            "payer_type": "thirdPerson",
+            "cost": "Cost object",
+            "redelivery_sum": 963,
+            "redelivery_sum_commision": 10,
+            "redelivery_commision_payer": "thirdPerson",
+            "text_note": "Text note",
+            "cargo_description": "Тут був я і я",
+            "cargo_type": "Cargo",
+            "created_date": "2019-02-15 03:39:49",
+            "weight_type": "physical",
+            "weight_physical_value": 91,
+            "weight_volume_value": 2,
+            "places_amount": 3,
+            "location": [
+                48.933219,
+                24.728456
+            ],
+            "location_precision": "city",
+            "district_ref": "59d755ff-56fb-11e5-8d8d-005056887b8d",
+            "has_time_interval": false,
+            "time_interval_from": "2019-02-15 15:00:00",
+            "time_interval_to": "2019-02-15 18:00:00"
+        },
+        {
+            "ref": "57d604de-d0d4-4962-a00b-62eb2fb8f1d8",
+            "number": "59317199997370",
+            "sender": {
+                "city": {
+                    "ref": "0d834484-4b3a-11e4-ab6d-005056801329",
+                    "description": "м.НеДалеко"
+                },
+                "counterparty": {
+                    "ref": "6a2915a2-966b-45c4-b6f5-86f0e9b981e0",
+                    "description": "АТ Чудова Сімка",
+                    "counterparty_type": "privatePerson"
+                },
+                "contact_person": {
+                    "ref": "422e8fc2-64ef-4c5a-ad82-ff096c64bb4b",
+                    "description": "Притухлий Віталя Штефков",
+                    "phone": "+380993605892"
+                },
+                "address": {
+                    "ref": "0236bc81-df34-41ed-afcf-7c95a8493b68",
+                    "description": "м.НеДалеко,вул.Надрічна,03"
+                }
+            },
+            "recipient": {
+                "city": {
+                    "ref": "0426effb-4d5a-11e4-ab6d-005056801329",
+                    "description": "м.Івано-Франківськ"
+                },
+                "counterparty": {
+                    "ref": "7a6055a2-966b-45c4-b6f5-86f0e9b461e0",
+                    "description": "Хамам",
+                    "counterparty_type": "PrivatePerson"
+                },
+                "contact_person": {
+                    "ref": "812e8fc2-64ef-4c5a-ad82-ff006c64bb4b",
+                    "description": "Притухлий Віталя Штефков",
+                    "phone": "+380995692157"
+                },
+                "address": {
+                    "ref": "0136bc81-df34-41ed-afcf-7c95a8493b68",
+                    "description": "м.Івано-Франківськ, вул.Надрічна, 03"
+                }
+            },
+            "price": 82,
+            "payer_type": "thirdPerson",
+            "cost": "Cost object",
+            "redelivery_sum": 953,
+            "redelivery_sum_commision": 37,
+            "redelivery_commision_payer": "thirdPerson",
+            "text_note": "Text note",
+            "cargo_description": "Тут був я і я",
+            "cargo_type": "Cargo",
+            "created_date": "2019-02-15 03:39:49",
+            "weight_type": "physical",
+            "weight_physical_value": 63,
+            "weight_volume_value": 8,
+            "places_amount": 3,
+            "location": [
+                48.936777,
+                24.72508
+            ],
+            "location_precision": "city",
+            "district_ref": "59d755ff-56fb-11e5-8d8d-005056887b8d",
+            "has_time_interval": true,
+            "time_interval_from": "2019-02-15 09:00:00",
+            "time_interval_to": "2019-02-15 12:00:00"
+        }
+    ]
+}}
+
+<> 2019-02-15T123453.400.json
+
+###
+
+POST https://test-arm.novaposhta.io/ml/
+Content-Type: application/json
+
+{}
+
+<> 2019-02-15T123440.401.json
+
+###
+
+POST https://test-arm.novaposhta.io/ml/
+Content-Type: application/json
+
+{}
+
+<> 2019-02-15T112325.401.json
+
+###
+
+POST http://localhost:80/api/item
+Content-Type: application/json
+
+{}
+
+###
+
